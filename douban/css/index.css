@@ -1,0 +1,109 @@
+
+@import "./common.css";
+
+/* 页头css */
+.header {
+    height: 90px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.header .container {
+    width: 950px;
+    margin: 0 auto;
+}
+/* logo区域css */
+
+.header .container .logo h1 {
+    width: 154px;
+    height: 30px;
+    background: url("../images/logo_db.png");
+}
+.header .container .logo h1 a{
+    display: block;
+    height: 30px;
+    color: transparent;
+}
+/* logo区域结束 */
+/* search区域css */
+.header .container .search {
+    margin-left: 30px;
+}
+.header .container .search .form-search {
+    height: 30px;
+    width: 270px;
+    border: 1px solid #c3c3c3;
+}
+.header .container .search .form-search .inp {
+    width: 240px;
+    height: 30px;
+    border: none;
+    padding: 0 5px;
+    box-sizing: border-box;
+    outline: none;
+    outline-offset: 0;
+    font-size: 13px;
+}
+
+.header .container .search .form-search .inp::placeholder {
+    color: #c3c3c3;
+}
+
+.header .container .search .form-search .btn-search {
+    color: #c3c3c3;
+    background: transparent;
+    border: none;
+    outline: none;
+    outline-offset: 0;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.header .container .search .form-search .btn-search .iconfont {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+/* search区域结束 */
+/* menu area css */
+.header .container .menu{
+    position: relative;
+    padding-top: 10px;
+}
+.header .container .menu a{
+    display: block;
+    float: left;
+    width: 40px;
+    height: 20px;
+    margin-left: 20px;
+    background: url("../images/anony_nav_logo.png") no-repeat;
+    color: transparent;
+    overflow: hidden;
+}
+.header .container .menu a:nth-child(1){
+    background-position: 0 0;;
+}
+.header .container .menu a:nth-child(2){
+    background-position: -60px 0;;
+}
+.header .container .menu a:nth-child(3){
+    background-position: -120px 0;;
+}
+.header .container .menu a:nth-child(4){
+    background-position: -180px 0;;
+}
+.header .container .menu a:nth-child(5){
+    background-position: -240px 0;;
+}
+.header .container .menu a:nth-child(6){
+    background-position: -300px 0;;
+}
+.header .container .menu a:nth-child(7){
+    background-position: -360px 0;;
+}
+.header .container .menu a:nth-child(8){
+    width: 43px;
+    background-position: -420px 0;;
+}
+/* end menu area css */
+/* 页头css结束 */

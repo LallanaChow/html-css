@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录/注册</title>
+    <link rel="stylesheet" href="./css/loginframe.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <!-- 短信登录/注册，密码登录 -->
+        <div class="login">
+            <!-- 短信登录/注册，密码登录切换菜单 -->
+            <div class="switch-menu clearfix">
+                <span class="left left-btn selected" id="msgLogin">短信登录/注册</span>
+                <span class="right right-btn" id="pwdLogin">密码登录</span>
+            </div>
+
+            <form action="get" class="form">
+                <!-- 短信登录/注册表单 -->
+                <div id="msgForm">
+                    <div class="form-item">
+                        <p class="txt">
+                            请仔细阅读
+                            <a href="" target="_blank"> 豆瓣使用协议、豆瓣个人信息保护政策</a>
+                        </p>
+                    </div>
+                    <div class="form-item releative">
+                        <input type="text" name="phone-number" id="phone-number" class="phone-number" placeholder="手机号">
+                        <!--  -->
+                        <div class="area-code">
+                            <div class="selected-code">
+
+                                +86
+                            </div>
+                            <div class="national-codes hidden" id="nationalCodes">
+                                <div class="code-list">
+                                    <div class="title">
+                                        <span class="left">选择国际区号</span>
+                                        <span class="right" id="close">
+                                            <i class="iconfont icon-cuowu"></i>
+                                        </span>
+                                    </div>
+                                    <ul class="global-phone-code">
+                                        <li class="clearfix"><span class="left phone-code-selected">国家名1</span><span
+                                                class="right">+86</span></li>
+                                        <li class="clearfix"><span class="left">国家名2</span><span class="right">2</span>
+                                        </li>
+                                        <li class="clearfix"><span class="left">国家名3</span><span class="right">3</span>
+                                        </li>
+                                        <li class="clearfix"><span class="left">国家名4</span><span class="right">4</span>
+                                        </li>
+                                        <li class="clearfix"><span class="left">国家名5</span><span class="right">5</span>
+                                        </li>
+                                        <li class="clearfix"><span class="left">国家名6</span><span class="right">6</span>
+                                        </li>
+                                        <li class="clearfix"><span class="left">国家名7</span><span class="right">7</span>
+                                        </li>
+                                        <li class="clearfix"><span class="left">国家名8</span><span class="right">8</span>
+                                        </li>
+                                        <li class="clearfix"><span class="left">国家名9</span><span class="right">9</span>
+                                        </li>
+                                        <li class="clearfix"><span class="left">国家名10</span><span
+                                                class="right">10</span></li>
+                                        <li class="clearfix"><span class="left">国家名11</span><span
+                                                class="right">11</span></li>
+                                        <li class="clearfix"><span class="left">国家名12</span><span
+                                                class="right">12</span></li>
+                                        <li class="clearfix"><span class="left">国家名13</span><span
+                                                class="right">13</span></li>
+                                        <li class="clearfix"><span class="left">国家名14</span><span
+                                                class="right">14</span></li>
+                                        <li class="clearfix"><span class="left">国家名15</span><span
+                                                class="right">15</span></li>
+                                        <li class="clearfix"><span class="left">国家名16</span><span
+                                                class="right">16</span></li>
+                                        <li class="clearfix"><span class="left">国家名17</span><span
+                                                class="right">17</span></li>
+                                        <li class="clearfix"><span class="left">国家名18</span><span
+                                                class="right">18</span></li>
+                                        <li class="clearfix"><span class="left">国家名19</span><span
+                                                class="right">19</span></li>
+                                        <li class="clearfix"><span class="left">国家名20</span><span
+                                                class="right">20</span></li>
+                                        <li class="clearfix"><span class="left">国家名21</span><span
+                                                class="right">21</span></li>
+                                        <li class="clearfix"><span class="left">国家名22</span><span
+                                                class="right">22</span></li>
+                                        <li class="clearfix"><span class="left">国家名23</span><span
+                                                class="right">23</span></li>
+                                        <li class="clearfix"><span class="left">国家名24</span><span
+                                                class="right">24</span></li>
+                                        <li class="clearfix"><span class="left">国家名25</span><span
+                                                class="right">25</span></li>
+                                        <li class="clearfix"><span class="left">国家名26</span><span
+                                                class="right">26</span></li>
+                                        <li class="clearfix"><span class="left">国家名27</span><span
+                                                class="right">27</span></li>
+                                        <li class="clearfix"><span class="left">国家名28</span><span
+                                                class="right">28</span></li>
+                                        <li class="clearfix"><span class="left">国家名29</span><span
+                                                class="right">29</span></li>
+                                        <li class="clearfix"><span class="left">国家名30</span><span
+                                                class="right">30</span></li>
+                                        <li class="clearfix"><span class="left">国家名31</span><span
+                                                class="right">31</span></li>
+                                        <li class="clearfix"><span class="left">国家名32</span><span
+                                                class="right">32</span></li>
+                                        <li class="clearfix"><span class="left">国家名33</span><span
+                                                class="right">33</span></li>
+                                        <li class="clearfix"><span class="left">国家名34</span><span
+                                                class="right">34</span></li>
+                                        <li class="clearfix"><span class="left">国家名35</span><span
+                                                class="right">35</span></li>
+                                        <li class="clearfix"><span class="left">国家名36</span><span
+                                                class="right">36</span></li>
+                                        <li class="clearfix"><span class="left">国家名37</span><span
+                                                class="right">37</span></li>
+                                        <li class="clearfix"><span class="left">国家名38</span><span
+                                                class="right">38</span></li>
+                                        <li class="clearfix"><span class="left">国家名39</span><span
+                                                class="right">39</span></li>
+                                        <li class="clearfix"><span class="left">国家名40</span><span
+                                                class="right">40</span></li>
+                                        <li class="clearfix"><span class="left">国家名41</span><span
+                                                class="right">41</span></li>
+                                        <li class="clearfix"><span class="left">国家名42</span><span
+                                                class="right">42</span></li>
+                                        <li class="clearfix"><span class="left">国家名43</span><span
+                                                class="right">43</span></li>
+                                        <li class="clearfix"><span class="left">国家名44</span><span
+                                                class="right">44</span></li>
+                                        <li class="clearfix"><span class="left">国家名45</span><span
+                                                class="right">45</span></li>
+                                        <li class="clearfix"><span class="left">国家名46</span><span
+                                                class="right">46</span></li>
+                                        <li class="clearfix"><span class="left">国家名47</span><span
+                                                class="right">47</span></li>
+                                        <li class="clearfix"><span class="left">国家名48</span><span
+                                                class="right">48</span></li>
+                                        <li class="clearfix"><span class="left">国家名49</span><span
+                                                class="right">49</span></li>
+                                        <li class="clearfix"><span class="left">国家名50</span><span
+                                                class="right">50</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-item clearfix releative">
+                        <input type="text" name="verify-code" id="verify-doce" placeholder="验证码" class="verily-code">
+                        <div class="unrecive">
+                            <span>获取验证码</span>
+                        </div>
+                    </div>
+
+                    <div class="form-item">
+                        <button class="btn" id="loginBtnMsg">登录豆瓣</button>
+                    </div>
+
+                    <div class="form-item clearfix">
+                        <div class="auto-login left ">
+                            <label for="next-login">
+                            <input type="checkbox" name="" id="next-login">
+                            <span class="right">下次自动登录</span>
+                            </label>
+                        </div>
+                        <div class="right">
+                            <span class="unrecive-tips">
+                                收不到验证码
+                            </span>
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <!-- 密码登录表单 -->
+                <div class="hidden" id="pwdForm">
+                    <div class="form-item clearfix">
+                        <p class="txt right">
+                            <a href="" target="_blank">找回密码</a>
+                        </p>
+                    </div>
+                    <div class="form-item">
+                        <input type="text" name="username" id="username" placeholder="手机号/邮箱">
+                    </div>
+                    <div class="form-item">
+                        <input type="password" name="pwd" id="password" placeholder="密码">
+                    </div>
+                    <div class="form-item">
+                        <button class="btn" id="loginBtnPwd">登录豆瓣</button>
+                    </div>
+                    <div class="form-item clearfix">
+                        <div class="auto-login left ">
+                            <label for="next-login">
+                            <input type="checkbox" name="" id="next-login">
+                            <span class="right">下次自动登录</span>
+                            </label>
+                        </div>
+                        <span class="foriegn-phone right">海外手机登录</span>
+                    </div>
+                </div>
+            </form>
+            <div class="third">
+                
+                <span>第三方登录：
+                    
+                    <i class="iconfont icon-weixin"></i>
+                    <i class="iconfont icon-weibo"></i>
+                </span>
+            </div>
+        </div>
+        <!-- 扫码登录 -->
+        <div class="square-qr">
+            <div class="square-menu">
+                
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var close = document.getElementById("close");
+        var box = document.getElementById("nationalCodes");
+        close.onclick = function () {
+            box.className = "hidden";
+        }
+
+        var selected = document.querySelector(".selected-code");
+        selected.onclick = function () {
+            box.className = "national-codes";
+        }
+
+        var msgBtn = document.getElementById("msgLogin");
+        var pwdBtn = document.getElementById("pwdLogin");
+        var msgForm = document.getElementById("msgForm");
+        var pwdForm = document.getElementById("pwdForm");
+        pwdBtn.onclick = function () {
+            msgForm.classList.add("hidden");
+            pwdBtn.classList.add("right");
+            pwdBtn.classList.add("selected");
+            msgBtn.classList.remove("selected");
+            pwdForm.classList.remove("hidden");
+        }
+
+        msgBtn.onclick = function () {
+            pwdForm.classList.add("hidden");
+            msgForm.classList.remove("hidden");
+            msgBtn.classList.add("selected");
+            pwdBtn.classList.remove("selected");
+        }
+
+        var loginBtn = document.getElementById("loginBtnMsg");
+        var phoneNum = document.getElementById("phone-number");
+        var varifyCode = document.getElementById("varify-code");
+
+        // console.log(document.getElementsByTagName("li"));
+        var codeList = document.getElementsByTagName("li");
+        // console.log(codeList.length);
+        for (var i = 0; i < 50; i++) {
+            codeList[i].addEventListener('click', function () {
+                clear(codeList);
+                // console.log(this);
+                this.firstChild.classList.add("phone-code-selected");
+                // console.log(document.querySelector(".selected-code").innerHTML);
+                selected.innerHTML = this.children[1].innerHTML;
+                box.classList.add("hidden");
+            });
+        }
+
+        function clear(codeList) {
+            // console.log(codeList);
+            for (var j = 0; j < 50; j++) {
+                codeList[j].firstChild.classList.remove("phone-code-selected");
+
+            }
+        }
+    </script>
+</body>
+
+</html>
